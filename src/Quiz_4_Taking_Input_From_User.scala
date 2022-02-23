@@ -1,5 +1,4 @@
 import scala.io.StdIn.readLine
-
 object Quiz_4_Taking_Input_From_User {
   def main(args: Array[String]): Unit={
 
