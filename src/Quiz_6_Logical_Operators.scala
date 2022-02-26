@@ -26,6 +26,5 @@ object Quiz_6_Logical_Operators {
     if(!(age.toInt < 18)){
       println("Welcome to ADULT league!")
     }
-
   }
 }
