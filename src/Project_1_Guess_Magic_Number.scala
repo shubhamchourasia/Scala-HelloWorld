@@ -2,7 +2,7 @@ import scala.io.StdIn.readLine
 import scala.util.Random
 import scala.util.control.Breaks.break
 
-object Project_1_Mini_Project_Guess_Game {
+object Project_1_Guess_Magic_Number {
   def main(args:Array[String]):Unit ={
 
     /*
