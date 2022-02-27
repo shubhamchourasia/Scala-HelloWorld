@@ -2,12 +2,20 @@ import scala.io.StdIn.readLine
 import scala.util.Random
 import scala.util.control.Breaks.break
 
-object Mini_Project_Guess_Game {
+object Project_1_Mini_Project_Guess_Game {
   def main(args:Array[String]):Unit ={
 
     /*
       Mini Project : Fortune - Guess Number in 5 turns
-     */
+      Concepts Used:
+      1. Taking input from user.
+      2. Type casting.
+      3. if-else block
+      4. loop concept
+      5. == operator
+      6. Random number
+      7. Break statement
+       */
 
     println("Welcome to Guess Game!!!")
     println("Rules: ")
@@ -41,7 +49,6 @@ object Mini_Project_Guess_Game {
         println("You took " + (5 - chances) + " chances.")
         break
       }
-
       chances -= 1
     }
   }
